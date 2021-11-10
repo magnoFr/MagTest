@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MagLib_Tests' do
+  pod 'MagLib', :path => '../'
+  
+  
+end
