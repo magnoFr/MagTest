@@ -10,6 +10,6 @@ import XCTest
 
 class ReplaceMeTests: XCTestCase {
     func test_fake() {
-        
+        XCTAssertTrue(1 == 1)
     }
 }
