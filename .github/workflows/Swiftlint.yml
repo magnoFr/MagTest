@@ -7,12 +7,9 @@ on:
     - feature/*
 
 jobs:
-  test:
-    name: Test
+  SwiftLint:
     runs-on: macos-latest
-
     steps:
-    - name: Checkout
     - uses: actions/checkout@v2
     - name: Bundle Install
       run: bundle install
