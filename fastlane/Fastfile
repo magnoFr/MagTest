@@ -19,7 +19,7 @@ platform :ios do
   desc "Rodar testes"
   lane :tests do
 	run_tests(scheme: "MagLib",
-	slack_url: "https://hooks.slack.com/services/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",
+	slack_url: "https://hooks.slack.com/services/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",
 	slack_channel: "testefastlane")
     # add actions here: https://docs.fastlane.tools/actions
   end

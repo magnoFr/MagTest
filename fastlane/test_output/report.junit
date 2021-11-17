@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='MagLib-Unit-Tests.xctest' tests='1' failures='0'>
+  <testsuite name='MagLib_Unit_Tests.ReplaceMeTests' tests='1' failures='0'>
+    <testcase classname='MagLib_Unit_Tests.ReplaceMeTests' name='test_fake' time='0.006'/>
+  </testsuite>
+</testsuites>
