@@ -1,0 +1,29 @@
+{
+  "name": "MagLib",
+  "version": "0.1.0",
+  "summary": "A short description of MagLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mag/MagLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mag": "magnoaugustofr@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mag/MagLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MagLib/Classes/**/*",
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "MagLib/Tests/**/*"
+    }
+  ]
+}

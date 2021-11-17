@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D5A2B970B15622236C9885DF /* Pods_MagLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194807573802EA45D29F9698 /* Pods_MagLib_Tests.framework */; };
+		F95B1E252A190BB94CF96E82 /* Pods_MagLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D4C103A80D06DDFCD83E15 /* Pods_MagLib_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		194807573802EA45D29F9698 /* Pods_MagLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A71821BF3FA53FE1215D58D /* Pods-MagLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MagLib_Tests/Pods-MagLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4FA097938C848677088B727C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4B067374C3C05D34D18529CA /* Pods-MagLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MagLib_Tests/Pods-MagLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4FA097938C848677088B727C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MagLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8C2ED772EF351EB94F21F111 /* MagLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MagLib.podspec; path = ../MagLib.podspec; sourceTree = "<group>"; };
-		9A3EA424AF8CF78B26ADA37C /* Pods-MagLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MagLib_Tests/Pods-MagLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EF95BC1ADA84D560EBAF92D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8C2ED772EF351EB94F21F111 /* MagLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MagLib.podspec; path = ../MagLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91D4C103A80D06DDFCD83E15 /* Pods_MagLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FF8A44605A1D0888025927 /* Pods-MagLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MagLib_Tests/Pods-MagLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF95BC1ADA84D560EBAF92D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,13 +28,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A2B970B15622236C9885DF /* Pods_MagLib_Tests.framework in Frameworks */,
+				F95B1E252A190BB94CF96E82 /* Pods_MagLib_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03F811CFA25CBC48E9348C14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91D4C103A80D06DDFCD83E15 /* Pods_MagLib_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -42,7 +50,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				F1BB8709070C642083B071FE /* Pods */,
-				FFBBEF250E58AB04BF8C629D /* Frameworks */,
+				03F811CFA25CBC48E9348C14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,19 +92,10 @@
 		F1BB8709070C642083B071FE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A3EA424AF8CF78B26ADA37C /* Pods-MagLib_Tests.debug.xcconfig */,
-				1A71821BF3FA53FE1215D58D /* Pods-MagLib_Tests.release.xcconfig */,
+				D5FF8A44605A1D0888025927 /* Pods-MagLib_Tests.debug.xcconfig */,
+				4B067374C3C05D34D18529CA /* Pods-MagLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FFBBEF250E58AB04BF8C629D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				194807573802EA45D29F9698 /* Pods_MagLib_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,11 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MagLib_Tests" */;
 			buildPhases = (
-				56D6B282C2659D4DAFB78BE7 /* [CP] Check Pods Manifest.lock */,
+				985B581DAF99D6CFF555A70F /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				CE48E7421BE7A2AB3E167A57 /* [CP] Embed Pods Frameworks */,
+				04620CFAE7B7F830CE5F8EBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -171,7 +167,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		56D6B282C2659D4DAFB78BE7 /* [CP] Check Pods Manifest.lock */ = {
+		04620CFAE7B7F830CE5F8EBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagLib_Tests/Pods-MagLib_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MagLib/MagLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagLib_Tests/Pods-MagLib_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985B581DAF99D6CFF555A70F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,24 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CE48E7421BE7A2AB3E167A57 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MagLib_Tests/Pods-MagLib_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MagLib/MagLib.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagLib_Tests/Pods-MagLib_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -326,7 +322,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A3EA424AF8CF78B26ADA37C /* Pods-MagLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = D5FF8A44605A1D0888025927 /* Pods-MagLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -348,7 +344,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A71821BF3FA53FE1215D58D /* Pods-MagLib_Tests.release.xcconfig */;
+			baseConfigurationReference = 4B067374C3C05D34D18529CA /* Pods-MagLib_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

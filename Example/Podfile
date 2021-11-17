@@ -1,6 +1,6 @@
 use_frameworks!
+platform :ios, '12'
+
 target 'MagLib_Tests' do
-  pod 'MagLib', :path => '../'
-  
-  
+  pod 'MagLib', :path => '../', :testspecs => ['Tests']
 end

@@ -1,0 +1,6 @@
+framework module MagLib {
+  umbrella header "MagLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

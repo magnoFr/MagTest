@@ -11,18 +11,11 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of MagLib.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/Mag/MagLib'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mag' => 'magnoaugustofr@gmail.com' }
   s.source           = { :git => 'https://github.com/Mag/MagLib.git', :tag => s.version.to_s }
@@ -32,11 +25,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MagLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MagLib' => ['MagLib/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.test_spec 'Tests' do |test_spec|
+     test_spec.source_files = 'MagLib/Tests/**/*'
+   end
 end

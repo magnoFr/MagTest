@@ -1,0 +1,6 @@
+framework module Pods_MagLib_Tests {
+  umbrella header "Pods-MagLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,18 @@
+PODS:
+  - MagLib (0.1.0)
+  - MagLib/Tests (0.1.0)
+
+DEPENDENCIES:
+  - MagLib (from `../`)
+  - MagLib/Tests (from `../`)
+
+EXTERNAL SOURCES:
+  MagLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MagLib: 3c55b7330026efa9cbb03715ac6725a7257827b6
+
+PODFILE CHECKSUM: 9b463395d5c7f6c1118a87b451b6599d5941fd4e
+
+COCOAPODS: 1.11.2
