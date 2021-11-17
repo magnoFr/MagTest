@@ -1,0 +1,20 @@
+name: Swiftlint
+
+on:
+  pull_request:
+    branches:
+    - develop
+    - feature/*
+
+jobs:
+  test:
+    name: Test
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout
+    - uses: actions/checkout@v2
+    - name: Bundle Install
+      run: bundle install
+    - name: Unit tests
+      run: bundle exec fastlane tests
